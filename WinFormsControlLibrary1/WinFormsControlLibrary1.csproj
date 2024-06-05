@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="LockButton.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="LockButton.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="LockButton.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="LockButton.resx" />
+  </ItemGroup>
+
+</Project>
